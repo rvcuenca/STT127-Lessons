@@ -2,8 +2,12 @@
 title: "STT127: Essential Regular Expressions for Data Cleaning"
 author: 'R.R. Cuenca'
 institute: 'MSU-Iligan Institute of Technology'
-format: html
+format: 
+  html:
+    embed-resources: true
 editor: visual
+execute: 
+  eval: false
 ---
 
 ```{r}
@@ -83,13 +87,13 @@ You can test each problem in this section with the strings named like `PROBLEM_1
 
 1.  Extract all of the valid phone numbers from the string PHONE_FIELD_ENTRIES. You should get one phone number for each of the numbers 1-9. This one may be easier if you tackle it in stages.
 
-2.  Extract the date ranges from the description field in [this dataset's documentation file](https://www.kaggle.com/sohier/nber-macrohistory-database/data). (You can download the same data from our [google drive](https://drive.google.com/drive/folders/1qvuZQP5rzTuu9wO3WXEY0wflLyPnMRu2?usp=sharing) under the folder `data-ranges`.)
+2.  Extract the date ranges from the description field in [this dataset's documentation file](https://www.kaggle.com/sohier/nber-macrohistory-database/data). (**NOTE:** You can download the same data from our [google drive](https://drive.google.com/drive/folders/1qvuZQP5rzTuu9wO3WXEY0wflLyPnMRu2?usp=sharing) under the folder `data-ranges`.)
 
     ```{r}
     read.csv('stt127-data-sept-18-2024/data-ranges/data.csv')
     ```
 
-3.  Identify the people who contributed to books in this [library collections dataset](https://www.kaggle.com/seattle-public-library/seattle-library-checkout-records/data). You can find the relevant data in the Title column of the `Library_Collection_Inventory.csv`. (You can download the same data from our [google drive](https://drive.google.com/drive/folders/1qvuZQP5rzTuu9wO3WXEY0wflLyPnMRu2?usp=sharing) under the folder `library-collection`.)
+3.  Identify the people who contributed to books in this [library collections dataset](https://www.kaggle.com/seattle-public-library/seattle-library-checkout-records/data). You can find the relevant data in the Title column of the `Library_Collection_Inventory.csv`. (**NOTE:** You can download the same data from our [google drive](https://drive.google.com/drive/folders/1qvuZQP5rzTuu9wO3WXEY0wflLyPnMRu2?usp=sharing) under the folder `library-collection`.)
 
     ```{r}
     read.csv('stt127-data-sept-18-2024/library-collection/Library_Collection_Inventory.csv')
