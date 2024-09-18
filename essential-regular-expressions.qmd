@@ -2,9 +2,7 @@
 title: "STT127: Essential Regular Expressions for Data Cleaning"
 author: 'R.R. Cuenca'
 institute: 'MSU-Iligan Institute of Technology'
-format: 
-  html:
-    embed-resources: true
+format: html
 editor: visual
 execute: 
   eval: false
@@ -23,6 +21,8 @@ In the following order, understand the contents by reading and running the codes
 3.  [**Regular Expressions** vignette of `stringr` from CRAN.](https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html "https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html")
 
 ## Problems
+
+(The following is an R adaptation of [Sohier Dane's Kaggle notebook](https://www.kaggle.com/code/sohier/exercises-for-intro-to-regular-expressions) for Python.)
 
 ```{r}
 PROBLEM_1 <- 'https://www.kaggle.com https://www.google.com https://www.wikipedia.com'
