@@ -17,7 +17,7 @@ library(tidyverse)
 In the following order, understand the contents by reading and running the codes within the tutorials. You have 2 hours to do all these.
 
 1.  [**Chapter 14: Strings** of H. Wickham's book *R for Data Science (2ed)*](https://r4ds.hadley.nz/strings "https://r4ds.hadley.nz/strings")
-2.  [**Chapter 15: Regular Expressions** of H. Wickham's book *R for Data Science (2ed)*](https://r4ds.hadley.nz/strings "https://r4ds.hadley.nz/strings")
+2.  [**Chapter 15: Regular Expressions** of H. Wickham's book *R for Data Science (2ed)*](https://r4ds.hadley.nz/regexps "https://r4ds.hadley.nz/regexps")
 3.  [**Regular Expressions** vignette of `stringr` from CRAN.](https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html "https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html")
 
 ## Problems
