@@ -61,7 +61,7 @@ You can test each problem in this section with the strings named like `PROBLEM_1
 
     -   Hint: the `match any character` metacharacter will be very helpful here.
 
-2.  Write a pattern that will returns numbers containing no zeros or ones.
+2.  Write a pattern that will return numbers containing no zeros or ones.
 
     -   Hint: you can solve this with a pattern just seven characters long with the word boundary special character and a custom character class.
 
